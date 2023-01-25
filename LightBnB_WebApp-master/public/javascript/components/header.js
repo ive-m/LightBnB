@@ -7,7 +7,7 @@ $(() => {
     currentUser = user;
     $pageHeader.find("#page-header__user-links").remove();
     let userLinks;
-
+console.log('User', user);
     if (!user) {
       userLinks = `
       <nav id="page-header__user-links" class="page-header__user-links">
@@ -42,8 +42,9 @@ $(() => {
 
   getMyDetails()
     .then(function( json ) {
-    updateHeader(json.user);
-  });
+      console.log('JSON',json );
+      updateHeader(json.user);
+    });
 
   $("header").on("click", '.my_reservations_button', function() {
     propertyListings.clearListings();
