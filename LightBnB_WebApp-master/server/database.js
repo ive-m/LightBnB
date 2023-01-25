@@ -114,7 +114,7 @@ const addUser = function (user) {
     console.log(err.message);
   });
 };
-//getAllProperties();
+
 
 
 
@@ -142,29 +142,41 @@ const addUser = function (user) {
   });
 };
 
+const addProperty = function (property) {
+  return pool
+  .query(
+    `INSERT INTO properties (title,description,thumbnail_photo_url,cover_photo_url,cost_per_night,street,city,province,post_code,country,parking_spaces,number_of_bathrooms,number_of_bedrooms) VALUES($1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13) RETURNING *;`,
+    [
+      property.title,
+      property.description,
+      property.thumbnail_photo_url,
+      property.cover_photo_url,
+      property.cost_per_night,
+      property.street,
+      property.city,
+      property.province,
+      property.post_code,
+      property.country,
+      property.parking_spaces,
+      property.number_of_bathrooms,
+      property.number_of_bedrooms])
+  .then((result) => {
+ 
+    return result.rows;
+   
+  })
+  .catch((err) => {
+    console.log(err.message);
+  });
+};
+
 exports.getUserWithEmail = getUserWithEmail;
 exports.getAllProperties = getAllProperties;
 exports.getUserWithId = getUserWithId;
 exports.addUser = addUser;
 exports.getAllReservations = getAllReservations;
- 
+exports.addProperty = addProperty;
 
-// /// Properties
-
-// /**
-//  * Get all properties.
-//  * @param {{}} options An object containing query options.
-//  * @param {*} limit The number of results to return.
-//  * @return {Promise<[{}]>}  A promise to the properties.
-//  */
-// const getAllProperties = function(options, limit = 10) {
-//   const limitedProperties = {};
-//   for (let i = 1; i <= limit; i++) {
-//     limitedProperties[i] = properties[i];
-//   }
-//   return Promise.resolve(limitedProperties);
-// }
-// exports.getAllProperties = getAllProperties;
 
 
 // /**
