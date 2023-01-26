@@ -62,28 +62,28 @@ In this project, I have:
   * My Reservations => show all reservations that the user has. 
  
 
-## Learning Outcomes
-In completing this project, I am able to:
+  ## Learning Outcomes
+  In completing this project, I am able to:
 
-* Explain the importance and application of SQL/relational databases for web applications.
-* Describe the key components that make up a relational database.
-* Design database tables using primary and foreign keys correctly.
-* Determine if a data model should use one-to-many or many-to-many relationships when designing relational databases.
-* Utilize SELECT statements to solve common data query questions involving GROUP BY, WHERE, LIMIT, ORDER.
-* Utilize CREATE, UPDATE, DELETE statements to modify existing database table structure and records.
-* Use JOIN statements to combine information from related tables to build more complex result sets.
-* Use asynchronous (promise-based) postgres JS libraries to query data from Node applications.
-* Use the psql CLI to interact with and explore a database.
-* Research database queries through documentation and other references.
+  * Explain the importance and application of SQL/relational databases for web applications.
+  * Describe the key components that make up a relational database.
+  * Design database tables using primary and foreign keys correctly.
+  * Determine if a data model should use one-to-many or many-to-many relationships when designing relational databases.
+  * Utilize SELECT statements to solve common data query questions involving GROUP BY, WHERE, LIMIT, ORDER.
+  * Utilize CREATE, UPDATE, DELETE statements to modify existing database table structure and records.
+  * Use JOIN statements to combine information from related tables to build more complex result sets.
+  * Use asynchronous (promise-based) postgres JS libraries to query data from Node applications.
+  * Use the psql CLI to interact with and explore a database.
+  * Research database queries through documentation and other references.
 
-## Work Outcomes
-By completing this project, I am being prepared to be able to do the following on the job:
+  ## Work Outcomes
+  By completing this project, I am being prepared to be able to do the following on the job:
 
-* Troubleshoot and debug problems associated with web development.
-* Demonstrate problem solving skills by developing basic algorithms to solve coding challenges or katas.
-* Evaluate or analyze coding solutions / ideas, and their limitations and/or benefits.
-* Contribute to full-stack web applications using modern software development patterns, tools and workflows.
-* Contribute to the backend of web applications that use industry-standard languages (Ruby) and frameworks (Rails and Express).
-* Integrate into common development team workflows (git, github workflow, automated testing, and code reviews).
-* Extend existing database design, as well as writing realistic SQL queries to CRUD data in SQL databases.
-* Create API services and/or consumers that use modern data formats such as JSON.
+  * Troubleshoot and debug problems associated with web development.
+  * Demonstrate problem solving skills by developing basic algorithms to solve coding challenges or katas.
+  * Evaluate or analyze coding solutions / ideas, and their limitations and/or benefits.
+  * Contribute to full-stack web applications using modern software development patterns, tools and workflows.
+  * Contribute to the backend of web applications that use industry-standard languages (Ruby) and frameworks (Rails and Express).
+  * Integrate into common development team workflows (git, github workflow, automated testing, and code reviews).
+  * Extend existing database design, as well as writing realistic SQL queries to CRUD data in SQL databases.
+  * Create API services and/or consumers that use modern data formats such as JSON.
