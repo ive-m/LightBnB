@@ -1,3 +1,4 @@
+/*Cities with the total or reservations each one has, ordered descending*/
 SELECT properties.city, count(reservations) as total_reservations
 FROM reservations
 JOIN properties ON property_id = properties.id
