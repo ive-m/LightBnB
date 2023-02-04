@@ -84,6 +84,21 @@ In this project, I have:
 
 ## Screeshots
 
+Load the site
+![Alt text](https://github.com/ive-m/LightBnB/blob/master/images/Load.png)
+
+Log in 
+![Alt text](https://github.com/ive-m/LightBnB/blob/master/images/Login.png)
+
+Search 
+![Alt text](https://github.com/ive-m/LightBnB/blob/master/images/Search.png)
+
+Sign Up 
+![Alt text](https://github.com/ive-m/LightBnB/blob/master/images/Sign%20Up.png)
+
+User logged in 
+![Alt text](https://github.com/ive-m/LightBnB/blob/master/images/User%20Logged%20in.png)
+
 ## Learning Outcomes
 
   In completing this project, I am able to:
