@@ -54,6 +54,8 @@ In this project, I have:
  
 ## ERD
 
+![Alt text](https://github.com/ive-m/LightBnB/blob/master/images/ERD.png)
+
 ## Dependencies
 
     "bcrypt": "^3.0.6",
