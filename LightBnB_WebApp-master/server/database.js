@@ -5,6 +5,7 @@ const pool = new Pool({/*pool for multiple connections to the db*/
   host: 'localhost',
   database: 'lightbnb'
 });
+pool.connect();
 /*Search properties and filter if any, limit 10*/
 const getAllProperties = (options, limit = 10) => {
   const queryParams = [];
