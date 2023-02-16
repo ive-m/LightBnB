@@ -1,7 +1,4 @@
-INSERT INTO reservations (start_date, end_date, property_id, guest_id)
-VALUES ('2018-09-11', '2018-09-26', 1, 1),
-('2019-01-04', '2019-02-01', 2, 2),
-('2021-10-01', '2021-10-14', 3, 3);
+
 
 INSERT INTO users (name, email, password)     
 VALUES('Maria Perez', 'maria.perez@gmail.com', '$2a$10$FB/BOAVhpuLvpOREQVmvmezD4ED/.JBIDRh70tGevYzYzQgFId2u.'),
@@ -13,6 +10,11 @@ VALUES ('Beutiful Home','description', 1, 'https://images.pexels.com/photos/2104
 (
 'Huge House', 'description', 2, 'https://images.pexels.com/photos/2079695/pexels-photo-2079695.jpeg', 'https://images.pexels.com/photos/2079695/pexels-photo-2079695.jpeg?auto=compress&cs=tinysrgb&h=350', 21000, 1, 1, 5, true, 'Newfoundland And Labrador', 'Port', 'Canada', '1315 Zavevi Center', '10231'),
 ('Soon wide', 'description', 3, 'https://images.pexels.com/photos/1438834/pexels-photo-1438834.jpeg', 'https://images.pexels.com/photos/1438834/pexels-photo-1438834.jpeg?auto=compress&cs=tinysrgb&h=350', 44534, 1, 6, 4, true, 'Manitoba', 'Neva', 'Canada', '51 Ufbik Highway', '60318');
+
+INSERT INTO reservations (start_date, end_date, property_id, guest_id)
+VALUES ('2018-09-11', '2018-09-26', 1, 1),
+('2019-01-04', '2019-02-01', 2, 2),
+('2021-10-01', '2021-10-14', 3, 3);
 
 INSERT INTO property_reviews (
 guest_id, property_id, reservation_id, rating, message) 
